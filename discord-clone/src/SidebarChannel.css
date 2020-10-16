@@ -3,13 +3,17 @@
     background-color: #40464b;
 }
 
-.sidebarChannel > h4 {
+.sidebarChannel > h3 {
     display: flex;
     padding-left: 15px;
     align-items: center;
-    background-color: #2f3135;
+
     color: gray;
-    cursor: pointer;
+    cursor: pointer ;
+}
+
+.sidebarChannel:hover {
+    background-color:#363a3f ;
 }
 
 .sidebarChannel__hash{
