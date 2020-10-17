@@ -7,7 +7,7 @@ import { Avatar } from '@material-ui/core';
 function Message({ timestamp, user, message }) {
     return (
         <div className="message">
-            <Avatar src={user.photo} />
+            <Avatar src="https://media-exp1.licdn.com/dms/image/C4E35AQEvpRD9Xaj3aw/profile-framedphoto-shrink_400_400/0?e=1602993600&v=beta&t=bHSxCoJzGaz9EKoR46764IatPmcEpsmHsrgb5Bce260" />
 
             <div className="message__info">
                 <h4> Dead_Deed
