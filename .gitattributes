@@ -1,0 +1,24 @@
+# Specify the language for HTML, CSS, JavaScript, TypeScript, and JSON files
+
+*.html linguist-language=HTML
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.json linguist-language=JSON
+*.md linguist-language=Markdown
+
+# Node.js files
+*.js linguist-language=JavaScript
+*.json linguist-language=JSON
+
+# React.js files
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+
+# If you have any other specific file types
+*.ejs linguist-language=HTML
+*.graphql linguist-language=GraphQL
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
